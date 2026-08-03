@@ -207,9 +207,19 @@ async function loadAbout() {
 // Company / institution logo helper
 // Real brand logos where available, on-brand monogram fallback otherwise
 // ============================================
-function brandLogoHTML(name) {
-    // Monogram from the institution's significant initials (no external logo
-    // assets — the template renders a clean on-brand monogram for any company)
+// Real brand logos, keyed by a normalized company / institution name.
+// If a match is found we render the actual logo; otherwise we fall back to a
+// clean on-brand monogram. If a logo file ever fails to load, the <img> onerror
+// handler swaps it for the same monogram so the layout never breaks.
+const BRAND_LOGOS = {
+    'crow museum of asian art': 'assets/images/logos/crow-museum.png',
+    'digiflutters technologies': 'assets/images/logos/digiflutters.png',
+    'the university of texas at dallas': 'assets/images/logos/utdallas.png',
+    'parul university of engineering and technology': 'assets/images/logos/parul.webp'
+};
+
+function brandMonogram(name) {
+    // Monogram from the institution's significant initials.
     const stop = new Set(['of', 'the', 'and', 'for', 'pvt', 'ltd', 'inc', 'llc', 'co', '&']);
     const cleaned = (name || '').replace(/\(.*?\)/g, ' ');
     let mono = cleaned.split(/[\s.,]+/)
@@ -218,6 +228,25 @@ function brandLogoHTML(name) {
         .join('')
         .slice(0, 3);
     if (!mono) mono = ((name || '?').trim()[0] || '?').toUpperCase();
+    return mono;
+}
+
+// Swap a failed logo image for the monogram chip so the layout never breaks.
+function logoFallback(img, mono) {
+    const chip = img.closest('.logo-chip');
+    if (!chip) return;
+    chip.classList.add('logo-chip--mono');
+    chip.textContent = mono;
+}
+
+function brandLogoHTML(name) {
+    const mono = brandMonogram(name);
+    const key = (name || '').toLowerCase().replace(/\s+/g, ' ').trim();
+    const logo = BRAND_LOGOS[key];
+    if (logo) {
+        const safeName = (name || '').replace(/"/g, '&quot;');
+        return `<span class="logo-chip"><img src="${logo}" alt="${safeName} logo" loading="lazy" onerror="logoFallback(this, '${mono}')"></span>`;
+    }
     return `<span class="logo-chip logo-chip--mono">${mono}</span>`;
 }
 
