@@ -1,0 +1,23 @@
+{
+  "sectionTitle": "Education & Certifications",
+  "certificationsTitle": "Certifications",
+  "education": [
+    {
+      "degree": "Master of Science in Business Analytics & AI",
+      "school": "The University of Texas at Dallas",
+      "institution": "The University of Texas at Dallas",
+      "period": "Aug 2024 to May 2026",
+      "details": "",
+      "description": ""
+    },
+    {
+      "degree": "Bachelor of Technology in Information Technology",
+      "school": "Parul University of Engineering and Technology",
+      "institution": "Parul University of Engineering and Technology",
+      "period": "Aug 2019 to May 2023",
+      "details": "",
+      "description": ""
+    }
+  ],
+  "certifications": []
+}

@@ -1,0 +1,45 @@
+{
+  "sectionTitle": "Professional Experience",
+  "experiences": [
+    {
+      "title": "Data Analyst",
+      "company": "Crow Museum of Asian Art",
+      "period": "May 2025 to May 2026",
+      "location": "",
+      "description": "Consolidated 5 source systems into a single reporting layer using SQL and Python, replacing the separate manual exports each team maintained and giving Finance and Operations one consistent set of numbers to work from.\nBuilt ETL workflows with automated validation across those systems, catching 200+ data discrepancies at the source rather than after they surfaced in stakeholder reports and required correction downstream.\nAutomated recurring reporting in Python and Claude API, converting a multi-hour weekly assembly process into a scheduled pipeline and recovering 35% of analyst time for ad hoc requests from leadership.",
+      "responsibilities": [
+        "Consolidated 5 source systems into a single reporting layer using SQL and Python, replacing the separate manual exports each team maintained and giving Finance and Operations one consistent set of numbers to work from",
+        "Built ETL workflows with automated validation across those systems, catching 200+ data discrepancies at the source rather than after they surfaced in stakeholder reports and required correction downstream",
+        "Automated recurring reporting in Python and Claude API, converting a multi-hour weekly assembly process into a scheduled pipeline and recovering 35% of analyst time for ad hoc requests from leadership"
+      ],
+      "technologies": [
+        "SQL",
+        "Python",
+        "Claude API",
+        "ETL"
+      ],
+      "icon": "fas fa-briefcase",
+      "color": "#FF6B6B"
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Digiflutters Technologies",
+      "period": "Jul 2022 to Jun 2024",
+      "location": "",
+      "description": "Cut reporting cycle time by 45% across 4 client accounts by replacing manual consolidation with SQL and Python pipelines, standardizing how data from separate source systems reached each client’s reporting layer.\nShipped 12+ Power BI and Tableau dashboards tracking KPIs across marketing, product, and operations, presenting weekly findings to client stakeholders and adjusting reporting as their priorities shifted.\nSegmented 75K customer records to identify high-value cohorts and the behavioral signals preceding churn, informing how one client reprioritized retention spend across its most valuable customer groups.",
+      "responsibilities": [
+        "Cut reporting cycle time by 45% across 4 client accounts by replacing manual consolidation with SQL and Python pipelines, standardizing how data from separate source systems reached each client’s reporting layer",
+        "Shipped 12+ Power BI and Tableau dashboards tracking KPIs across marketing, product, and operations, presenting weekly findings to client stakeholders and adjusting reporting as their priorities shifted",
+        "Segmented 75K customer records to identify high-value cohorts and the behavioral signals preceding churn, informing how one client reprioritized retention spend across its most valuable customer groups"
+      ],
+      "technologies": [
+        "SQL",
+        "Python",
+        "Power BI",
+        "Tableau"
+      ],
+      "icon": "fas fa-briefcase",
+      "color": "#4ECDC4"
+    }
+  ]
+}

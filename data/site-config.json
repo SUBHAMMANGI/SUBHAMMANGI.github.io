@@ -1,0 +1,25 @@
+{
+  "title": "Subham Mangi | Data Analyst",
+  "description": "Data Analyst with 3+ years of experience building SQL and Python pipelines, developing Power BI and Tableau dashboards for business stakeholders, and resolving data quality issues across reporting ...",
+  "keywords": "Data Analyst, Portfolio, Subham Mangi, Python, SQL, Pandas, NumPy, Scikit-learn, dbt, Excel, Pivot Tables",
+  "author": "Subham Mangi",
+  "siteName": "Subham Mangi",
+  "siteTitle": "Subham Mangi | Data Analyst",
+  "meta": {
+    "title": "Subham Mangi | Data Analyst",
+    "description": "Data Analyst with 3+ years of experience building SQL and Python pipelines, developing Power BI and Tableau dashboards for business stakeholders, and resolving data quality issues across reporting ...",
+    "author": "Subham Mangi",
+    "keywords": "Data Analyst, Portfolio, Subham Mangi, Python, SQL, Pandas, NumPy, Scikit-learn, dbt, Excel, Pivot Tables"
+  },
+  "branding": {
+    "name": "Subham Mangi",
+    "tagline": "Data Analyst",
+    "logo": "/logo.png"
+  },
+  "settings": {
+    "year": 2026,
+    "enableAnimations": true,
+    "enableParticles": true,
+    "navbarScrollEffect": true
+  }
+}

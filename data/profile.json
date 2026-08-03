@@ -1,0 +1,18 @@
+{
+  "profile": {
+    "name": "Subham Mangi",
+    "title": "Data Analyst",
+    "bio": "Data Analyst with 3+ years of experience building SQL and Python pipelines, developing Power BI and Tableau dashboards for business stakeholders, and resolving data quality issues across reporting systems. Advanced Excel and SQL, with production experience delivering AI-driven analytics workflows using the Claude API."
+  },
+  "contact": {
+    "email": "Subhammangi27@gmail.com",
+    "phone": "+1 (945) 713 2959",
+    "githubUsername": "SUBHAMMANGI",
+    "linkedin": "linkedin.com/in/subhammangi"
+  },
+  "siteConfig": {
+    "domain": "",
+    "title": "Subham Mangi - Portfolio",
+    "description": "Data Analyst with 3+ years of experience building SQL and Python pipelines, developing Power BI and Tableau dashboards for business stakeholders, and resolving data quality issues across reporting systems. Advanced Excel and SQL, with production experience delivering AI-driven analytics workflows using the Claude API."
+  }
+}
