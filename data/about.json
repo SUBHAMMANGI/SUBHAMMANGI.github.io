@@ -1,0 +1,39 @@
+{
+  "sectionTitle": "About Me",
+  "image": "",
+  "paragraphs": [
+    "Data Analyst with 3+ years of experience building SQL and Python pipelines, developing Power BI and Tableau dashboards for business stakeholders, and resolving data quality issues across reporting systems.",
+    "Advanced Excel and SQL, with production experience delivering AI-driven analytics workflows using the Claude API."
+  ],
+  "statistics": [
+    {
+      "icon": "fas fa-project-diagram",
+      "value": "3+",
+      "label": "Projects Built",
+      "color": "#FF6B6B"
+    },
+    {
+      "icon": "fas fa-briefcase",
+      "value": "4+",
+      "label": "Years Experience",
+      "color": "#4ECDC4"
+    },
+    {
+      "icon": "fas fa-code",
+      "value": "33+",
+      "label": "Technologies",
+      "color": "#FFE66D"
+    },
+    {
+      "icon": "fas fa-graduation-cap",
+      "value": "2",
+      "label": "Degrees",
+      "color": "#A8DADC"
+    }
+  ],
+  "downloadCV": {
+    "text": "Download Resume",
+    "href": "#",
+    "icon": "fas fa-download"
+  }
+}

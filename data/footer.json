@@ -1,0 +1,43 @@
+{
+  "copyright": {
+    "text": "© 2026 Subham Mangi. All rights reserved.",
+    "year": "2026",
+    "name": "Subham Mangi"
+  },
+  "tagline": "Crafted with passion and dedication",
+  "links": [
+    {
+      "text": "GitHub",
+      "href": "github.com/SUBHAMMANGI"
+    },
+    {
+      "text": "LinkedIn",
+      "href": "linkedin.com/in/subhammangi"
+    },
+    {
+      "text": "Email",
+      "href": "mailto:Subhammangi27@gmail.com"
+    }
+  ],
+  "socialLinks": [
+    {
+      "platform": "GitHub",
+      "url": "github.com/SUBHAMMANGI",
+      "icon": "fab fa-github"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "linkedin.com/in/subhammangi",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:Subhammangi27@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ],
+  "backToTop": {
+    "text": "Back to Top",
+    "icon": "fas fa-chevron-up"
+  }
+}
