@@ -2,33 +2,33 @@
   "sectionTitle": "About Me",
   "image": "",
   "paragraphs": [
-    "I'm a Data & Business Analyst who lives at the intersection of the business question and the data that answers it. Across 3+ years in healthcare, multi-client consulting, and museum operations, I've consolidated scattered source systems into single sources of truth and built the reporting that Finance, Operations, and clinical teams depend on.",
-    "What I care about is trust and clarity — catching data-quality issues before they reach a stakeholder's dashboard, automating the manual reporting that quietly drains analyst time, and translating analysis into plain-language recommendations rather than just charts. Most recently that's meant AI-augmented workflows with the Claude API that turn multi-hour weekly processes into scheduled pipelines.",
-    "From revenue-cycle KPIs in healthcare to campaign performance for consulting clients, my goal is always the decision on the other side of the data — not the pipeline behind it."
+    "I got my start at Digiflutters in India, building the SQL and Python pipelines behind reporting for four different client accounts, and shipping the Power BI and Tableau dashboards their teams actually lived in day to day. That's what pulled me to UT Dallas for my MS, and it's still what I do now: at Crow Museum, I rebuilt five disconnected reporting systems into one clean layer, catching 200+ discrepancies before they ever reached a stakeholder's inbox.",
+    "On my own time, I built DRIP, a platform scoring risk across $124B+ in DeFi exposure, and I've been using the Claude API to automate reporting work that used to eat a full day a week.",
+    "Based in Dallas — and when I'm not fixing a pipeline, I'm probably on a pickleball court."
   ],
   "statistics": [
     {
-      "icon": "fas fa-project-diagram",
-      "value": "10+",
-      "label": "Projects Built",
-      "color": "#FF6B6B"
-    },
-    {
-      "icon": "fas fa-briefcase",
-      "value": "3+",
-      "label": "Years Experience",
-      "color": "#4ECDC4"
-    },
-    {
-      "icon": "fas fa-code",
-      "value": "33+",
-      "label": "Technologies",
+      "icon": "fas fa-chart-column",
+      "value": "12+",
+      "label": "BI Dashboards Shipped",
       "color": "#FFE66D"
     },
     {
-      "icon": "fas fa-graduation-cap",
-      "value": "2",
-      "label": "Degrees",
+      "icon": "fas fa-bolt",
+      "value": "45%",
+      "label": "Faster Reporting Cycles",
+      "color": "#4ECDC4"
+    },
+    {
+      "icon": "fas fa-shield-halved",
+      "value": "100",
+      "label": "DeFi Protocols Monitored",
+      "color": "#FF6B6B"
+    },
+    {
+      "icon": "fas fa-clock",
+      "value": "35%",
+      "label": "Analyst Time Recovered",
       "color": "#A8DADC"
     }
   ],
