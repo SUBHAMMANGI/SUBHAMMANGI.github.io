@@ -2,57 +2,108 @@
   "sectionTitle": "Skills & Technologies",
   "categories": [
     {
-      "category": "Programming Languages",
+      "category": "Languages & Tools",
       "icon": "fas fa-code",
       "color": "#FF6B6B",
       "skills": [
-        "Python",
         "SQL",
-        "Pandas",
+        "Python",
+        "pandas",
         "NumPy",
-        "Scikit-learn",
-        "dbt"
-      ]
-    },
-    {
-      "category": "Tools & Platforms",
-      "icon": "fas fa-wrench",
-      "color": "#FFE66D",
-      "skills": [
-        "Excel",
-        "Pivot Tables",
-        "XLOOKUP",
-        "SUMIFS",
-        "Tableau",
-        "Power BI",
-        "Snowflake",
-        "PostgreSQL",
-        "Git",
-        "GitHub",
-        "Claude API",
-        "Google Cloud Platform",
+        "scikit-learn",
+        "dbt",
+        "DAX",
+        "R",
         "Jupyter Notebook"
       ]
     },
     {
-      "category": "Technical Skills",
-      "icon": "fas fa-laptop-code",
+      "category": "BI & Reporting",
+      "icon": "fas fa-chart-column",
+      "color": "#FFD93D",
+      "skills": [
+        "Power BI",
+        "Tableau",
+        "Executive Dashboards",
+        "Advanced Excel (VBA)",
+        "Pivot Tables",
+        "XLOOKUP",
+        "SUMIFS",
+        "Salesforce",
+        "KPI Design",
+        "Data Storytelling"
+      ]
+    },
+    {
+      "category": "Data Engineering",
+      "icon": "fas fa-database",
+      "color": "#4ECDC4",
+      "skills": [
+        "Snowflake",
+        "PostgreSQL",
+        "MySQL",
+        "Hadoop (Hive, Impala)",
+        "Google Cloud Platform",
+        "ETL Pipelines",
+        "Data Modeling",
+        "Medallion Architecture",
+        "Data Warehousing",
+        "Data Validation",
+        "Data-Quality Frameworks",
+        "Workflow Automation",
+        "Git & GitHub"
+      ]
+    },
+    {
+      "category": "Analytics & Statistics",
+      "icon": "fas fa-chart-line",
       "color": "#A8DADC",
       "skills": [
-        "Querying & Analysis",
-        "Large Dataset Analysis",
-        "ETL Pipelines",
-        "Data Validation",
-        "Automation",
-        "Dashboard Development",
-        "KPI Reporting",
-        "Data Storytelling",
-        "Data Pipelines",
-        "Medallion Architecture",
-        "Data Modeling",
-        "Agentic AI",
+        "A/B Testing",
+        "Hypothesis Testing",
+        "Customer Segmentation",
+        "Cohort Analysis",
+        "Time Series Forecasting",
+        "Anomaly Detection",
+        "Large Dataset Analysis"
+      ]
+    },
+    {
+      "category": "Machine Learning & AI",
+      "icon": "fas fa-robot",
+      "color": "#8B5CF6",
+      "skills": [
+        "Predictive Modeling",
+        "Random Forest",
+        "Gradient Boosting",
+        "K-Means Clustering",
+        "Generative AI Tools",
         "LLM Integration",
-        "Agile"
+        "Agentic AI",
+        "Claude API"
+      ]
+    },
+    {
+      "category": "Healthcare & Domain",
+      "icon": "fas fa-notes-medical",
+      "color": "#FF8FA3",
+      "skills": [
+        "Claims Data",
+        "HIPAA Compliance",
+        "Revenue-Cycle KPIs",
+        "Denial-Rate Analysis",
+        "Payer Mix",
+        "AR Aging"
+      ]
+    },
+    {
+      "category": "Certifications",
+      "icon": "fas fa-certificate",
+      "color": "#FFA500",
+      "skills": [
+        "AWS Certified Cloud Practitioner",
+        "Google Data Analytics",
+        "Intermediate R"
       ]
     }
   ]
