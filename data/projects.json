@@ -2,99 +2,142 @@
   "sectionTitle": "Featured Work",
   "projects": [
     {
-      "title": "DRIP, Financial Risk Intelligence Platform",
-      "description": "Built a production platform in Python and SQL scoring 100 monitored assets and $124B+ in exposure across code safety, drawdown, volatility, concentration, and liquidity, surfacing high-risk entities for live users.\nAutomated exposure tracking and threshold alerting in Python, replacing manual screening with real-time Tableau dashboards that flag breaches as they occur rather than surfacing them at period end review.",
-      "longDescription": "Built a production platform in Python and SQL scoring 100 monitored assets and $124B+ in exposure across code safety, drawdown, volatility, concentration, and liquidity, surfacing high-risk entities for live users.\nAutomated exposure tracking and threshold alerting in Python, replacing manual screening with real-time Tableau dashboards that flag breaches as they occur rather than surfacing them at period end review.",
-      "category": "Backend Development",
-      "technologies": [
-        "Python",
-        "SQL",
-        "Claude API",
-        "Snowflake",
-        "Tableau"
-      ],
-      "icon": "fas fa-server",
+      "title": "Comprehensive Healthcare Analytics",
+      "description": "End-to-end healthcare analytics on patient, billing, doctor, and appointment data — SQL (SSMS) for cleaning and referential-integrity checks, Python (Pandas, Matplotlib, Seaborn) for analysis, and Power BI dashboards surfacing billing trends, doctor performance, and patient demographics.",
+      "longDescription": "End-to-end healthcare analytics on patient, billing, doctor, and appointment data — SQL (SSMS) for cleaning and referential-integrity checks, Python (Pandas, Matplotlib, Seaborn) for analysis, and Power BI dashboards surfacing billing trends, doctor performance, and patient demographics.",
+      "category": "Healthcare Analytics",
+      "technologies": ["SQL", "Python", "Pandas", "Power BI"],
+      "icon": "fas fa-notes-medical",
+      "color": "#FF6B6B",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/SUBHAMMANGI/comprehensive-healthcare-analytics",
+      "demo": "https://github.com/SUBHAMMANGI/comprehensive-healthcare-analytics",
+      "links": {
+        "github": "https://github.com/SUBHAMMANGI/comprehensive-healthcare-analytics",
+        "demo": "https://github.com/SUBHAMMANGI/comprehensive-healthcare-analytics",
+        "live": ""
+      },
+      "stats": { "status": "Completed", "year": "2026" }
+    },
+    {
+      "title": "U.S. Healthcare Industry Analysis",
+      "description": "Power BI analysis of the U.S. healthcare industry (2019–2020) — modeling patient demographics, hospital performance, and payer–provider dynamics with DAX measures and interactive filters for scenario modeling and executive reporting on a dimensional (star-schema) model.",
+      "longDescription": "Power BI analysis of the U.S. healthcare industry (2019–2020) — modeling patient demographics, hospital performance, and payer–provider dynamics with DAX measures and interactive filters for scenario modeling and executive reporting on a dimensional (star-schema) model.",
+      "category": "Healthcare Analytics",
+      "technologies": ["Power BI", "DAX", "Data Modeling"],
+      "icon": "fas fa-hospital",
+      "color": "#4ECDC4",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/SUBHAMMANGI/us-healthcare-analysis-powerbi",
+      "demo": "https://github.com/SUBHAMMANGI/us-healthcare-analysis-powerbi",
+      "links": {
+        "github": "https://github.com/SUBHAMMANGI/us-healthcare-analysis-powerbi",
+        "demo": "https://github.com/SUBHAMMANGI/us-healthcare-analysis-powerbi",
+        "live": ""
+      },
+      "stats": { "status": "Completed", "year": "2026" }
+    },
+    {
+      "title": "Healthcare Data Analysis with Power BI",
+      "description": "Interactive Power BI dashboard on hospital visitor data — patient demographics, visit timing, department referrals, and satisfaction scores — built with Power Query ETL, data modeling, and DAX KPIs to support resource optimization and patient-care decisions.",
+      "longDescription": "Interactive Power BI dashboard on hospital visitor data — patient demographics, visit timing, department referrals, and satisfaction scores — built with Power Query ETL, data modeling, and DAX KPIs to support resource optimization and patient-care decisions.",
+      "category": "Healthcare Analytics",
+      "technologies": ["Power BI", "Power Query", "DAX", "Excel"],
+      "icon": "fas fa-heart-pulse",
+      "color": "#FF8FA3",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/SUBHAMMANGI/healthcare-data-analysis-using-powerbi",
+      "demo": "https://github.com/SUBHAMMANGI/healthcare-data-analysis-using-powerbi",
+      "links": {
+        "github": "https://github.com/SUBHAMMANGI/healthcare-data-analysis-using-powerbi",
+        "demo": "https://github.com/SUBHAMMANGI/healthcare-data-analysis-using-powerbi",
+        "live": ""
+      },
+      "stats": { "status": "Completed", "year": "2026" }
+    },
+    {
+      "title": "Insurance Analytics Dashboard",
+      "description": "Power BI dashboard for insurance policy and claims data — modeling premium, platinum, and basic policy types, claim vs. no-claim behavior, and risk factors such as smoker status, with DAX measures surfacing underwriting and portfolio insights.",
+      "longDescription": "Power BI dashboard for insurance policy and claims data — modeling premium, platinum, and basic policy types, claim vs. no-claim behavior, and risk factors such as smoker status, with DAX measures surfacing underwriting and portfolio insights.",
+      "category": "Healthcare Analytics",
+      "technologies": ["Power BI", "Power Query", "DAX"],
+      "icon": "fas fa-shield-heart",
+      "color": "#A8DADC",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/SUBHAMMANGI/insurance-analytics-powerbi",
+      "demo": "https://github.com/SUBHAMMANGI/insurance-analytics-powerbi",
+      "links": {
+        "github": "https://github.com/SUBHAMMANGI/insurance-analytics-powerbi",
+        "demo": "https://github.com/SUBHAMMANGI/insurance-analytics-powerbi",
+        "live": ""
+      },
+      "stats": { "status": "Completed", "year": "2026" }
+    },
+    {
+      "title": "SQL for Financial Data Analysis",
+      "description": "SQL-based financial reporting system generating Profit & Loss statements, Balance Sheets, and Cash Flow reports from general-ledger, chart-of-accounts, territory, and calendar datasets — with pivoted, period-over-period and country-level breakdowns validated against Excel.",
+      "longDescription": "SQL-based financial reporting system generating Profit & Loss statements, Balance Sheets, and Cash Flow reports from general-ledger, chart-of-accounts, territory, and calendar datasets — with pivoted, period-over-period and country-level breakdowns validated against Excel.",
+      "category": "SQL & Analytics",
+      "technologies": ["SQL", "Azure Data Studio", "Excel"],
+      "icon": "fas fa-database",
+      "color": "#FFE66D",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/SUBHAMMANGI/sql-for-financial-data-analysis",
+      "demo": "https://github.com/SUBHAMMANGI/sql-for-financial-data-analysis",
+      "links": {
+        "github": "https://github.com/SUBHAMMANGI/sql-for-financial-data-analysis",
+        "demo": "https://github.com/SUBHAMMANGI/sql-for-financial-data-analysis",
+        "live": ""
+      },
+      "stats": { "status": "Completed", "year": "2026" }
+    },
+    {
+      "title": "Mutual Fund Analysis Dashboard",
+      "description": "Screened 2,500+ mutual-fund schemes down to the top 30 high-return, low-risk funds using Python (Pandas, scikit-learn MinMaxScaler) with a custom scoring model on returns, expense ratio, and fund age — presented in a professional Power BI dashboard.",
+      "longDescription": "Screened 2,500+ mutual-fund schemes down to the top 30 high-return, low-risk funds using Python (Pandas, scikit-learn MinMaxScaler) with a custom scoring model on returns, expense ratio, and fund age — presented in a professional Power BI dashboard.",
+      "category": "BI & Dashboards",
+      "technologies": ["Python", "scikit-learn", "Power BI", "Excel"],
+      "icon": "fas fa-chart-line",
+      "color": "#B19CD9",
+      "image": "",
+      "featured": true,
+      "github": "https://github.com/SUBHAMMANGI/mutual-fund-analysis-dashboard-python-powerbi",
+      "demo": "https://github.com/SUBHAMMANGI/mutual-fund-analysis-dashboard-python-powerbi",
+      "links": {
+        "github": "https://github.com/SUBHAMMANGI/mutual-fund-analysis-dashboard-python-powerbi",
+        "demo": "https://github.com/SUBHAMMANGI/mutual-fund-analysis-dashboard-python-powerbi",
+        "live": ""
+      },
+      "stats": { "status": "Completed", "year": "2026" }
+    },
+    {
+      "title": "HeartAI — Clinical Data Analytics Pipeline",
+      "description": "Delivered an analysis-ready clinical dataset to a healthcare AI team by consolidating fragmented PostgreSQL records into a tested dbt + Snowflake medallion pipeline, catching schema and null-value issues in staging before they reached the models downstream teams relied on.",
+      "longDescription": "Delivered an analysis-ready clinical dataset to a healthcare AI team by consolidating fragmented PostgreSQL records into a tested dbt + Snowflake medallion pipeline, catching schema and null-value issues in staging before they reached the models downstream teams relied on.",
+      "category": "Healthcare Analytics",
+      "technologies": ["dbt", "Snowflake", "PostgreSQL", "Python", "SQL"],
+      "icon": "fas fa-heart-pulse",
       "color": "#FF6B6B",
       "image": "",
       "featured": true,
       "github": "",
       "demo": "",
-      "links": {
-        "github": "",
-        "demo": "",
-        "live": ""
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
+      "links": { "github": "", "demo": "", "live": "" },
+      "stats": { "status": "Completed", "year": "2026" }
     },
     {
-      "title": "HeartAI Platform, Clinical Data Engineering Pipeline",
-      "description": "Delivered an analysis-ready dataset to a clinical AI team by building a dbt and Snowflake pipeline with medallion architecture, consolidating fragmented PostgreSQL records on a daily batch schedule.\nImplemented dbt tests and documentation standards across all layers with Git version control, catching schema and null-value issues in staging before they reached the models downstream teams relied on.",
-      "longDescription": "Delivered an analysis-ready dataset to a clinical AI team by building a dbt and Snowflake pipeline with medallion architecture, consolidating fragmented PostgreSQL records on a daily batch schedule.\nImplemented dbt tests and documentation standards across all layers with Git version control, catching schema and null-value issues in staging before they reached the models downstream teams relied on.",
-      "category": "Backend Development",
-      "technologies": [
-        "dbt",
-        "Snowflake",
-        "PostgreSQL",
-        "Python",
-        "SQL",
-        "Git"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#4ECDC4",
-      "image": "",
-      "featured": true,
-      "github": "",
-      "demo": "",
-      "links": {
-        "github": "",
-        "demo": "",
-        "live": ""
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "Order Fulfillment SLA Monitor & Seller Scorecard",
-      "description": "Traced a 1-point drop in customer review scores to seller handoff delay and carrier transit variance by analyzing 99K marketplace orders in SQL, ruling out order volume as the driver teams had assumed.\nReplaced monthly aggregate review with a weekly Power BI scorecard flagging SLA breaches, with drill-through from breach to individual order so operations could act on specific sellers instead of trends.",
-      "longDescription": "Traced a 1-point drop in customer review scores to seller handoff delay and carrier transit variance by analyzing 99K marketplace orders in SQL, ruling out order volume as the driver teams had assumed.\nReplaced monthly aggregate review with a weekly Power BI scorecard flagging SLA breaches, with drill-through from breach to individual order so operations could act on specific sellers instead of trends.",
-      "category": "Backend Development",
-      "technologies": [
-        "SQL",
-        "Python",
-        "Power BI",
-        "Excel"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#FFE66D",
-      "image": "",
-      "featured": true,
-      "github": "",
-      "demo": "",
-      "links": {
-        "github": "",
-        "demo": "",
-        "live": ""
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "DeFi-Risk-Intelligence-Platform-DRIP",
-      "description": "DeFi Risk Intelligence Platform - Real-time risk monitoring for $124B+ across 100 DeFi protocols",
-      "longDescription": "DeFi Risk Intelligence Platform - Real-time risk monitoring for $124B+ across 100 DeFi protocols",
-      "category": "Data Science",
-      "technologies": [
-        "HTML"
-      ],
-      "icon": "fas fa-brain",
-      "color": "#A8DADC",
+      "title": "DRIP — Financial Risk Intelligence Platform",
+      "description": "Production risk-intelligence platform scoring 100 monitored assets and $124B+ exposure across drawdown, volatility, concentration, and liquidity — automating threshold alerting in Python and surfacing breaches in real time through Tableau dashboards instead of period-end review.",
+      "longDescription": "Production risk-intelligence platform scoring 100 monitored assets and $124B+ exposure across drawdown, volatility, concentration, and liquidity — automating threshold alerting in Python and surfacing breaches in real time through Tableau dashboards instead of period-end review.",
+      "category": "BI & Dashboards",
+      "technologies": ["Python", "SQL", "Tableau", "Claude API"],
+      "icon": "fas fa-chart-column",
+      "color": "#FFA500",
       "image": "",
       "featured": true,
       "github": "https://github.com/SUBHAMMANGI/DeFi-Risk-Intelligence-Platform-DRIP",
@@ -104,174 +147,35 @@
         "demo": "https://subhammangi.github.io/DeFi-Risk-Intelligence-Platform-DRIP/",
         "live": "https://subhammangi.github.io/DeFi-Risk-Intelligence-Platform-DRIP/"
       },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
+      "stats": { "status": "Completed", "year": "2026" }
     },
     {
-      "title": "multi-source-marketing-analytics",
-      "description": "Comprehensive project exploring software design patterns",
-      "longDescription": "Comprehensive project exploring software design patterns",
-      "category": "Backend Development",
-      "technologies": [
-        "HTML",
-        "Python"
-      ],
-      "icon": "fas fa-brain",
-      "color": "#B19CD9",
+      "title": "Customer Churn Prediction",
+      "description": "Telco churn analysis combining statistical testing (t-tests, chi-square) with scikit-learn classifiers (logistic regression, random forest, KNN) to identify churn drivers and predict at-risk customers at ~81% accuracy, translated into retention recommendations.",
+      "longDescription": "Telco churn analysis combining statistical testing (t-tests, chi-square) with scikit-learn classifiers (logistic regression, random forest, KNN) to identify churn drivers and predict at-risk customers at ~81% accuracy, translated into retention recommendations.",
+      "category": "Machine Learning",
+      "technologies": ["Python", "scikit-learn", "SQL", "pandas"],
+      "icon": "fas fa-robot",
+      "color": "#8B5CF6",
       "image": "",
       "featured": true,
-      "github": "https://github.com/SUBHAMMANGI/multi-source-marketing-analytics",
-      "demo": "https://github.com/SUBHAMMANGI/multi-source-marketing-analytics",
+      "github": "https://github.com/SUBHAMMANGI/customer-churn-prediction",
+      "demo": "https://github.com/SUBHAMMANGI/customer-churn-prediction",
       "links": {
-        "github": "https://github.com/SUBHAMMANGI/multi-source-marketing-analytics",
-        "demo": "https://github.com/SUBHAMMANGI/multi-source-marketing-analytics",
-        "live": "https://github.com/SUBHAMMANGI/multi-source-marketing-analytics"
+        "github": "https://github.com/SUBHAMMANGI/customer-churn-prediction",
+        "demo": "https://github.com/SUBHAMMANGI/customer-churn-prediction",
+        "live": ""
       },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
+      "stats": { "status": "Completed", "year": "2026" }
     },
     {
-      "title": "elt-pipeline-dbt-snowflake-airflow",
-      "description": "Comprehensive project exploring software design patterns",
-      "longDescription": "Comprehensive project exploring software design patterns",
-      "category": "Backend Development",
-      "technologies": [
-        "HTML",
-        "Python",
-        "Dockerfile"
-      ],
-      "icon": "fas fa-brain",
-      "color": "#FF6B6B",
-      "image": "",
-      "featured": true,
-      "github": "https://github.com/SUBHAMMANGI/elt-pipeline-dbt-snowflake-airflow",
-      "demo": "https://github.com/SUBHAMMANGI/elt-pipeline-dbt-snowflake-airflow",
-      "links": {
-        "github": "https://github.com/SUBHAMMANGI/elt-pipeline-dbt-snowflake-airflow",
-        "demo": "https://github.com/SUBHAMMANGI/elt-pipeline-dbt-snowflake-airflow",
-        "live": "https://github.com/SUBHAMMANGI/elt-pipeline-dbt-snowflake-airflow"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "data-pipeline-with-dbt-using-airflow-on-gcp",
-      "description": "Personal project for exploring modern development practices",
-      "longDescription": "Personal project for exploring modern development practices",
-      "category": "Backend Development",
-      "technologies": [
-        "Python",
-        "Dockerfile"
-      ],
-      "icon": "fas fa-project-diagram",
+      "title": "Retail Margin Cockpit",
+      "description": "Governed retail margin and inventory model — a dbt star schema (DuckDB / Postgres) with tested marts feeding a Power BI semantic layer (DAX + row-level security) that exposes category-level margin gaps invisible in siloed spreadsheets.",
+      "longDescription": "Governed retail margin and inventory model — a dbt star schema (DuckDB / Postgres) with tested marts feeding a Power BI semantic layer (DAX + row-level security) that exposes category-level margin gaps invisible in siloed spreadsheets.",
+      "category": "BI & Dashboards",
+      "technologies": ["dbt", "Power BI", "SQL", "Python"],
+      "icon": "fas fa-chart-column",
       "color": "#4ECDC4",
-      "image": "",
-      "featured": false,
-      "github": "https://github.com/SUBHAMMANGI/data-pipeline-with-dbt-using-airflow-on-gcp",
-      "demo": "https://github.com/SUBHAMMANGI/data-pipeline-with-dbt-using-airflow-on-gcp",
-      "links": {
-        "github": "https://github.com/SUBHAMMANGI/data-pipeline-with-dbt-using-airflow-on-gcp",
-        "demo": "https://github.com/SUBHAMMANGI/data-pipeline-with-dbt-using-airflow-on-gcp",
-        "live": "https://github.com/SUBHAMMANGI/data-pipeline-with-dbt-using-airflow-on-gcp"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "extracting-structured-data-from-pdfs",
-      "description": "Full-featured application built as a learning exercise",
-      "longDescription": "Full-featured application built as a learning exercise",
-      "category": "Backend Development",
-      "technologies": [
-        "Python",
-        "Jupyter Notebook",
-        "Dockerfile"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#FFE66D",
-      "image": "",
-      "featured": false,
-      "github": "https://github.com/SUBHAMMANGI/extracting-structured-data-from-pdfs",
-      "demo": "https://github.com/SUBHAMMANGI/extracting-structured-data-from-pdfs",
-      "links": {
-        "github": "https://github.com/SUBHAMMANGI/extracting-structured-data-from-pdfs",
-        "demo": "https://github.com/SUBHAMMANGI/extracting-structured-data-from-pdfs",
-        "live": "https://github.com/SUBHAMMANGI/extracting-structured-data-from-pdfs"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "sentiment-analysis-webapp-sagemaker",
-      "description": "Practice repository for exploring advanced features",
-      "longDescription": "Practice repository for exploring advanced features",
-      "category": "Backend Development",
-      "technologies": [
-        "Jupyter Notebook",
-        "Python",
-        "HTML"
-      ],
-      "icon": "fas fa-brain",
-      "color": "#A8DADC",
-      "image": "",
-      "featured": false,
-      "github": "https://github.com/SUBHAMMANGI/sentiment-analysis-webapp-sagemaker",
-      "demo": "https://github.com/SUBHAMMANGI/sentiment-analysis-webapp-sagemaker",
-      "links": {
-        "github": "https://github.com/SUBHAMMANGI/sentiment-analysis-webapp-sagemaker",
-        "demo": "https://github.com/SUBHAMMANGI/sentiment-analysis-webapp-sagemaker",
-        "live": "https://github.com/SUBHAMMANGI/sentiment-analysis-webapp-sagemaker"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "driftguard-llm",
-      "description": "Educational project for mastering software architecture",
-      "longDescription": "Educational project for mastering software architecture",
-      "category": "Backend Development",
-      "technologies": [
-        "Python",
-        "Dockerfile"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#B19CD9",
-      "image": "",
-      "featured": false,
-      "github": "https://github.com/SUBHAMMANGI/driftguard-llm",
-      "demo": "https://github.com/SUBHAMMANGI/driftguard-llm",
-      "links": {
-        "github": "https://github.com/SUBHAMMANGI/driftguard-llm",
-        "demo": "https://github.com/SUBHAMMANGI/driftguard-llm",
-        "live": "https://github.com/SUBHAMMANGI/driftguard-llm"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "retail-margin-cockpit",
-      "description": "Full-featured application built as a learning exercise",
-      "longDescription": "Full-featured application built as a learning exercise",
-      "category": "Backend Development",
-      "technologies": [
-        "Python"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#FF6B6B",
       "image": "",
       "featured": false,
       "github": "https://github.com/SUBHAMMANGI/retail-margin-cockpit",
@@ -279,190 +183,18 @@
       "links": {
         "github": "https://github.com/SUBHAMMANGI/retail-margin-cockpit",
         "demo": "https://github.com/SUBHAMMANGI/retail-margin-cockpit",
-        "live": "https://github.com/SUBHAMMANGI/retail-margin-cockpit"
+        "live": ""
       },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
+      "stats": { "status": "Completed", "year": "2026" }
     },
     {
-      "title": "customer-churn-prediction",
-      "description": "Personal development project using industry best practices",
-      "longDescription": "Personal development project using industry best practices",
-      "category": "Backend Development",
-      "technologies": [
-        "Python"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#4ECDC4",
-      "image": "",
-      "featured": false,
-      "github": "https://github.com/SUBHAMMANGI/customer-churn-prediction",
-      "demo": "https://github.com/SUBHAMMANGI/customer-churn-prediction",
-      "links": {
-        "github": "https://github.com/SUBHAMMANGI/customer-churn-prediction",
-        "demo": "https://github.com/SUBHAMMANGI/customer-churn-prediction",
-        "live": "https://github.com/SUBHAMMANGI/customer-churn-prediction"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "git-delete-merged-branches",
-      "description": "Educational project for mastering software architecture",
-      "longDescription": "Educational project for mastering software architecture",
-      "category": "Backend Development",
-      "technologies": [
-        "Python",
-        "Roff",
-        "Shell"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#FFE66D",
-      "image": "",
-      "featured": false,
-      "github": "https://github.com/SUBHAMMANGI/git-delete-merged-branches",
-      "demo": "https://github.com/SUBHAMMANGI/git-delete-merged-branches",
-      "links": {
-        "github": "https://github.com/SUBHAMMANGI/git-delete-merged-branches",
-        "demo": "https://github.com/SUBHAMMANGI/git-delete-merged-branches",
-        "live": "https://github.com/SUBHAMMANGI/git-delete-merged-branches"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "field-ops-sql-cost-audit",
-      "description": "Educational project for mastering software architecture",
-      "longDescription": "Educational project for mastering software architecture",
-      "category": "Backend Development",
-      "technologies": [
-        "Python",
-        "Dockerfile"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#A8DADC",
-      "image": "",
-      "featured": false,
-      "github": "https://github.com/SUBHAMMANGI/field-ops-sql-cost-audit",
-      "demo": "https://github.com/SUBHAMMANGI/field-ops-sql-cost-audit",
-      "links": {
-        "github": "https://github.com/SUBHAMMANGI/field-ops-sql-cost-audit",
-        "demo": "https://github.com/SUBHAMMANGI/field-ops-sql-cost-audit",
-        "live": "https://github.com/SUBHAMMANGI/field-ops-sql-cost-audit"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "Safety-Intelligence-Dashboard-Using-OSHA-Injury-Narratives-NLP",
-      "description": "This project uses NLP and predictive modeling to analyze OSHA injury narratives and machine-related safety data. The goal is to predict hand injuries and visualize safety trends. It includes Python scripts for data preprocessing and NLP analysis, along with an interactive Power BI dashboard for insights.",
-      "longDescription": "This project uses NLP and predictive modeling to analyze OSHA injury narratives and machine-related safety data. The goal is to predict hand injuries and visualize safety trends. It includes Python scripts for data preprocessing and NLP analysis, along with an interactive Power BI dashboard for insights.",
-      "category": "Software Development",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#B19CD9",
-      "image": "",
-      "featured": false,
-      "github": "https://github.com/SUBHAMMANGI/Safety-Intelligence-Dashboard-Using-OSHA-Injury-Narratives-NLP",
-      "demo": "https://github.com/SUBHAMMANGI/Safety-Intelligence-Dashboard-Using-OSHA-Injury-Narratives-NLP",
-      "links": {
-        "github": "https://github.com/SUBHAMMANGI/Safety-Intelligence-Dashboard-Using-OSHA-Injury-Narratives-NLP",
-        "demo": "https://github.com/SUBHAMMANGI/Safety-Intelligence-Dashboard-Using-OSHA-Injury-Narratives-NLP",
-        "live": "https://github.com/SUBHAMMANGI/Safety-Intelligence-Dashboard-Using-OSHA-Injury-Narratives-NLP"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "Stock-Price-Prediction-Using-Python-and-ML",
-      "description": "Predict stock prices using TensorFlow and scikit-learn. Includes data preprocessing, visualization, and a model to forecast prices 28 days ahead with RMSE evaluation.",
-      "longDescription": "Predict stock prices using TensorFlow and scikit-learn. Includes data preprocessing, visualization, and a model to forecast prices 28 days ahead with RMSE evaluation.",
-      "category": "Software Development",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#FF6B6B",
-      "image": "",
-      "featured": false,
-      "github": "https://github.com/SUBHAMMANGI/Stock-Price-Prediction-Using-Python-and-ML",
-      "demo": "https://github.com/SUBHAMMANGI/Stock-Price-Prediction-Using-Python-and-ML",
-      "links": {
-        "github": "https://github.com/SUBHAMMANGI/Stock-Price-Prediction-Using-Python-and-ML",
-        "demo": "https://github.com/SUBHAMMANGI/Stock-Price-Prediction-Using-Python-and-ML",
-        "live": "https://github.com/SUBHAMMANGI/Stock-Price-Prediction-Using-Python-and-ML"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "Car-Dealership",
-      "description": "An interactive dashboard for predicting car prices, segmenting customers, and optimizing inventory using data-driven insights. Features include dynamic filters, pricing trends, customer clustering, and inventory analysis. Built with Python, R, Streamlit, and machine learning models.  🚀 Optimize pricing, marketing, and stock management efficiently!",
-      "longDescription": "An interactive dashboard for predicting car prices, segmenting customers, and optimizing inventory using data-driven insights. Features include dynamic filters, pricing trends, customer clustering, and inventory analysis. Built with Python, R, Streamlit, and machine learning models.  🚀 Optimize pricing, marketing, and stock management efficiently!",
-      "category": "Software Development",
-      "technologies": [
-        "R"
-      ],
-      "icon": "fas fa-project-diagram",
-      "color": "#4ECDC4",
-      "image": "",
-      "featured": false,
-      "github": "https://github.com/SUBHAMMANGI/Car-Dealership",
-      "demo": "https://github.com/SUBHAMMANGI/Car-Dealership",
-      "links": {
-        "github": "https://github.com/SUBHAMMANGI/Car-Dealership",
-        "demo": "https://github.com/SUBHAMMANGI/Car-Dealership",
-        "live": "https://github.com/SUBHAMMANGI/Car-Dealership"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "contribution-history",
-      "description": "Contribution activity",
-      "longDescription": "Contribution activity",
-      "category": "Development",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
-      "color": "#FFE66D",
-      "image": "",
-      "featured": false,
-      "github": "https://github.com/SUBHAMMANGI/contribution-history",
-      "demo": "https://github.com/SUBHAMMANGI/contribution-history",
-      "links": {
-        "github": "https://github.com/SUBHAMMANGI/contribution-history",
-        "demo": "https://github.com/SUBHAMMANGI/contribution-history",
-        "live": "https://github.com/SUBHAMMANGI/contribution-history"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "Obsessive-Compulsive-Disorder-OCD-Patient-Data-Analysis",
-      "description": "Analyzed a dataset of 1,500 OCD patients, using SQL for data manipulation and feature engineering to improve data quality. Created interactive Power BI dashboards to visualize clinical and demographic data, providing insights for OCD treatment decisions.",
-      "longDescription": "Analyzed a dataset of 1,500 OCD patients, using SQL for data manipulation and feature engineering to improve data quality. Created interactive Power BI dashboards to visualize clinical and demographic data, providing insights for OCD treatment decisions.",
-      "category": "Development",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
-      "color": "#A8DADC",
+      "title": "OCD Patient Data Analysis",
+      "description": "Analyzed a 1,500-patient OCD dataset with SQL for feature engineering and data-quality fixes, then built interactive Power BI dashboards visualizing clinical and demographic patterns to support treatment decisions.",
+      "longDescription": "Analyzed a 1,500-patient OCD dataset with SQL for feature engineering and data-quality fixes, then built interactive Power BI dashboards visualizing clinical and demographic patterns to support treatment decisions.",
+      "category": "Healthcare Analytics",
+      "technologies": ["SQL", "Power BI"],
+      "icon": "fas fa-notes-medical",
+      "color": "#FF8FA3",
       "image": "",
       "featured": false,
       "github": "https://github.com/SUBHAMMANGI/Obsessive-Compulsive-Disorder-OCD-Patient-Data-Analysis",
@@ -470,20 +202,51 @@
       "links": {
         "github": "https://github.com/SUBHAMMANGI/Obsessive-Compulsive-Disorder-OCD-Patient-Data-Analysis",
         "demo": "https://github.com/SUBHAMMANGI/Obsessive-Compulsive-Disorder-OCD-Patient-Data-Analysis",
-        "live": "https://github.com/SUBHAMMANGI/Obsessive-Compulsive-Disorder-OCD-Patient-Data-Analysis"
+        "live": ""
       },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
+      "stats": { "status": "Completed", "year": "2025" }
     },
     {
-      "title": "HR-Analytics-Dashboard",
-      "description": "A data-driven dashboard visualizing workforce trends and employee attrition patterns to provide actionable insights for HR decision-making.",
-      "longDescription": "A data-driven dashboard visualizing workforce trends and employee attrition patterns to provide actionable insights for HR decision-making.",
-      "category": "Development",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
+      "title": "Field Ops SQL Cost Audit",
+      "description": "Field-service cost-to-serve and SLA-breach analysis in dbt / SQL — recursive CTEs to reconstruct route order, window functions for rolling technician utilization, and an independent hand-verified test set validating the breach logic.",
+      "longDescription": "Field-service cost-to-serve and SLA-breach analysis in dbt / SQL — recursive CTEs to reconstruct route order, window functions for rolling technician utilization, and an independent hand-verified test set validating the breach logic.",
+      "category": "SQL & Analytics",
+      "technologies": ["SQL", "dbt", "Python"],
+      "icon": "fas fa-database",
+      "color": "#FFE66D",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/SUBHAMMANGI/field-ops-sql-cost-audit",
+      "demo": "https://github.com/SUBHAMMANGI/field-ops-sql-cost-audit",
+      "links": {
+        "github": "https://github.com/SUBHAMMANGI/field-ops-sql-cost-audit",
+        "demo": "https://github.com/SUBHAMMANGI/field-ops-sql-cost-audit",
+        "live": ""
+      },
+      "stats": { "status": "Completed", "year": "2026" }
+    },
+    {
+      "title": "Order Fulfillment SLA Monitor & Seller Scorecard",
+      "description": "Traced a customer-review-score drop to seller handoff delay and carrier transit variance across 99K marketplace orders in SQL, replacing lagging monthly review with a weekly Power BI SLA scorecard with drill-through from breach to individual order.",
+      "longDescription": "Traced a customer-review-score drop to seller handoff delay and carrier transit variance across 99K marketplace orders in SQL, replacing lagging monthly review with a weekly Power BI SLA scorecard with drill-through from breach to individual order.",
+      "category": "BI & Dashboards",
+      "technologies": ["SQL", "Python", "Power BI", "Excel"],
+      "icon": "fas fa-chart-column",
+      "color": "#A8DADC",
+      "image": "",
+      "featured": false,
+      "github": "",
+      "demo": "",
+      "links": { "github": "", "demo": "", "live": "" },
+      "stats": { "status": "Completed", "year": "2025" }
+    },
+    {
+      "title": "HR Analytics Dashboard",
+      "description": "Data-driven dashboard visualizing workforce trends and employee attrition patterns, turning HR data into actionable insight for retention and headcount decisions.",
+      "longDescription": "Data-driven dashboard visualizing workforce trends and employee attrition patterns, turning HR data into actionable insight for retention and headcount decisions.",
+      "category": "BI & Dashboards",
+      "technologies": ["Power BI", "Excel"],
+      "icon": "fas fa-chart-pie",
       "color": "#B19CD9",
       "image": "",
       "featured": false,
@@ -492,20 +255,17 @@
       "links": {
         "github": "https://github.com/SUBHAMMANGI/HR-Analytics-Dashboard",
         "demo": "https://github.com/SUBHAMMANGI/HR-Analytics-Dashboard",
-        "live": "https://github.com/SUBHAMMANGI/HR-Analytics-Dashboard"
+        "live": ""
       },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
+      "stats": { "status": "Completed", "year": "2025" }
     },
     {
-      "title": "Apple-Store-Insights",
-      "description": "Analyzed an App Store dataset using SQL to uncover insights on ratings, pricing, genres, and language support. Findings show paid apps rate higher, 10–30 language support boosts ratings, and longer descriptions improve reviews.",
-      "longDescription": "Analyzed an App Store dataset using SQL to uncover insights on ratings, pricing, genres, and language support. Findings show paid apps rate higher, 10–30 language support boosts ratings, and longer descriptions improve reviews.",
-      "category": "Development",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
+      "title": "Apple App Store Insights",
+      "description": "SQL analysis of an App Store dataset uncovering how pricing, genre, language support, and description length relate to ratings — finding that paid apps and 10–30 language support correlate with higher ratings.",
+      "longDescription": "SQL analysis of an App Store dataset uncovering how pricing, genre, language support, and description length relate to ratings — finding that paid apps and 10–30 language support correlate with higher ratings.",
+      "category": "SQL & Analytics",
+      "technologies": ["SQL"],
+      "icon": "fas fa-database",
       "color": "#FF6B6B",
       "image": "",
       "featured": false,
@@ -514,60 +274,66 @@
       "links": {
         "github": "https://github.com/SUBHAMMANGI/Apple-Store-Insights",
         "demo": "https://github.com/SUBHAMMANGI/Apple-Store-Insights",
-        "live": "https://github.com/SUBHAMMANGI/Apple-Store-Insights"
+        "live": ""
       },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
+      "stats": { "status": "Completed", "year": "2025" }
     },
     {
-      "title": "procurepilot-ai",
-      "description": "GitHub repository: procurepilot-ai",
-      "longDescription": "GitHub repository: procurepilot-ai",
-      "category": "Backend Development",
-      "technologies": [
-        "Python"
-      ],
-      "icon": "fas fa-project-diagram",
+      "title": "OSHA Safety Intelligence Dashboard",
+      "description": "NLP and predictive modeling on OSHA injury narratives to predict hand injuries and surface machine-related safety trends, paired with an interactive Power BI dashboard for safety insights.",
+      "longDescription": "NLP and predictive modeling on OSHA injury narratives to predict hand injuries and surface machine-related safety trends, paired with an interactive Power BI dashboard for safety insights.",
+      "category": "Machine Learning",
+      "technologies": ["Python", "NLP", "Power BI"],
+      "icon": "fas fa-robot",
       "color": "#4ECDC4",
       "image": "",
       "featured": false,
-      "github": "https://github.com/SUBHAMMANGI/procurepilot-ai",
-      "demo": "https://github.com/SUBHAMMANGI/procurepilot-ai",
+      "github": "https://github.com/SUBHAMMANGI/Safety-Intelligence-Dashboard-Using-OSHA-Injury-Narratives-NLP",
+      "demo": "https://github.com/SUBHAMMANGI/Safety-Intelligence-Dashboard-Using-OSHA-Injury-Narratives-NLP",
       "links": {
-        "github": "https://github.com/SUBHAMMANGI/procurepilot-ai",
-        "demo": "https://github.com/SUBHAMMANGI/procurepilot-ai",
-        "live": "https://github.com/SUBHAMMANGI/procurepilot-ai"
+        "github": "https://github.com/SUBHAMMANGI/Safety-Intelligence-Dashboard-Using-OSHA-Injury-Narratives-NLP",
+        "demo": "https://github.com/SUBHAMMANGI/Safety-Intelligence-Dashboard-Using-OSHA-Injury-Narratives-NLP",
+        "live": ""
       },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
+      "stats": { "status": "Completed", "year": "2025" }
     },
     {
-      "title": "job-market-insights",
-      "description": "GitHub repository: job-market-insights",
-      "longDescription": "GitHub repository: job-market-insights",
-      "category": "Backend Development",
-      "technologies": [
-        "Python"
-      ],
-      "icon": "fas fa-project-diagram",
+      "title": "Stock Price Prediction",
+      "description": "Stock-price forecasting with TensorFlow and scikit-learn — data preprocessing, visualization, and a model forecasting prices 28 days ahead, evaluated with RMSE.",
+      "longDescription": "Stock-price forecasting with TensorFlow and scikit-learn — data preprocessing, visualization, and a model forecasting prices 28 days ahead, evaluated with RMSE.",
+      "category": "Machine Learning",
+      "technologies": ["Python", "TensorFlow", "scikit-learn"],
+      "icon": "fas fa-robot",
       "color": "#FFE66D",
       "image": "",
       "featured": false,
-      "github": "https://github.com/SUBHAMMANGI/job-market-insights",
-      "demo": "https://github.com/SUBHAMMANGI/job-market-insights",
+      "github": "https://github.com/SUBHAMMANGI/Stock-Price-Prediction-Using-Python-and-ML",
+      "demo": "https://github.com/SUBHAMMANGI/Stock-Price-Prediction-Using-Python-and-ML",
       "links": {
-        "github": "https://github.com/SUBHAMMANGI/job-market-insights",
-        "demo": "https://github.com/SUBHAMMANGI/job-market-insights",
-        "live": "https://github.com/SUBHAMMANGI/job-market-insights"
+        "github": "https://github.com/SUBHAMMANGI/Stock-Price-Prediction-Using-Python-and-ML",
+        "demo": "https://github.com/SUBHAMMANGI/Stock-Price-Prediction-Using-Python-and-ML",
+        "live": ""
       },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
+      "stats": { "status": "Completed", "year": "2025" }
+    },
+    {
+      "title": "Car Dealership Analytics",
+      "description": "Interactive dashboard predicting car prices, segmenting customers, and optimizing inventory using Python, R, Streamlit, and ML models — with dynamic pricing trends and customer clustering.",
+      "longDescription": "Interactive dashboard predicting car prices, segmenting customers, and optimizing inventory using Python, R, Streamlit, and ML models — with dynamic pricing trends and customer clustering.",
+      "category": "Machine Learning",
+      "technologies": ["Python", "R", "Streamlit"],
+      "icon": "fas fa-robot",
+      "color": "#A8DADC",
+      "image": "",
+      "featured": false,
+      "github": "https://github.com/SUBHAMMANGI/Car-Dealership",
+      "demo": "https://github.com/SUBHAMMANGI/Car-Dealership",
+      "links": {
+        "github": "https://github.com/SUBHAMMANGI/Car-Dealership",
+        "demo": "https://github.com/SUBHAMMANGI/Car-Dealership",
+        "live": ""
+      },
+      "stats": { "status": "Completed", "year": "2025" }
     }
   ]
 }
