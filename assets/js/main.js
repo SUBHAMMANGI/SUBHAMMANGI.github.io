@@ -323,7 +323,10 @@ async function loadSkills() {
                         <div class="skill-category-icon" style="background: ${category.color}20; color: ${category.color}">
                             <i class="${category.icon}"></i>
                         </div>
-                        <h3 class="skill-category-title">${category.category}</h3>
+                        <div class="skill-category-heading">
+                            <h3 class="skill-category-title">${category.category}</h3>
+                            <span class="skill-category-count">${category.skills.length} skills</span>
+                        </div>
                     </div>
                     <div class="skill-list">
                         ${category.skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
