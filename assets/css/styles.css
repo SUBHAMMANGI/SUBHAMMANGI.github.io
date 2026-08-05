@@ -91,6 +91,9 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    /* Stop iOS inflating body copy when the phone rotates to landscape */
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 body {
@@ -511,7 +514,9 @@ a { color: inherit; }
 
 .hero-highlights {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* min() lets the track collapse below 200px on narrow screens. Without it the
+       three 200px minimums add up to 632px, widening the hero past the viewport. */
+    grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
     gap: var(--spacing-sm);
     margin: var(--spacing-xl) 0;
     max-width: 760px;
@@ -1134,7 +1139,7 @@ a { color: inherit; }
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(264px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(264px, 100%), 1fr));
     gap: var(--spacing-md);
     align-items: start; /* each card sizes to its own content */
 }
@@ -1436,7 +1441,7 @@ a { color: inherit; }
 
 .education-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(380px, 100%), 1fr));
     gap: var(--spacing-md);
     margin-bottom: var(--spacing-lg);
 }
@@ -1517,7 +1522,7 @@ a { color: inherit; }
 
 .certifications-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(230px, 100%), 1fr));
     gap: var(--spacing-sm);
 }
 
@@ -1591,6 +1596,16 @@ a { color: inherit; }
     text-decoration: none;
 }
 
+/* Let the text column shrink, and break the address rather than push the card
+   wider than the screen. */
+.contact-info-content {
+    min-width: 0;
+}
+
+.contact-info-content p {
+    overflow-wrap: anywhere;
+}
+
 .contact-info-item:hover {
     transform: translateX(6px);
     background: var(--glass-hover);
@@ -1628,6 +1643,9 @@ a { color: inherit; }
     border: 1px solid var(--line);
     border-radius: var(--radius-lg);
     padding: var(--spacing-lg);
+    /* Grid items default to min-width:auto, so the form's min-content width
+       would push this card past the screen edge on a 320px phone. */
+    min-width: 0;
 }
 
 .contact-form {
@@ -1656,6 +1674,8 @@ a { color: inherit; }
 
 .form-group input,
 .form-group textarea {
+    width: 100%;
+    min-width: 0;
     padding: 0.85rem 1rem;
     background: var(--bg);
     border: 1px solid var(--line-strong);
@@ -1877,6 +1897,8 @@ a { color: inherit; }
         width: 78%;
         max-width: 320px;
         height: 100vh;
+        /* dvh tracks the collapsing iOS/Android toolbar; vh above is the fallback */
+        height: 100dvh;
         background: rgba(10, 10, 11, 0.96);
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px);
@@ -1903,7 +1925,9 @@ a { color: inherit; }
 
     .about-content { grid-template-columns: 1fr; }
 
-    .contact-wrapper { grid-template-columns: 1fr; }
+    /* minmax(0,·) instead of 1fr: a bare 1fr track can never shrink below its
+       min-content, and the email address sets that floor at ~306px. */
+    .contact-wrapper { grid-template-columns: minmax(0, 1fr); }
 
     .education-grid { grid-template-columns: 1fr; }
 }
@@ -1955,4 +1979,43 @@ a { color: inherit; }
     .certifications-grid { grid-template-columns: 1fr; }
 
     .timeline-item { padding-left: 60px; }
+
+    /* Badges sit at ~10.5px by default, which is below the legible floor
+       for overlay text held at arm's length. */
+    .filter-count,
+    .pc-tag,
+    .pc-num { font-size: 0.75rem; }
+}
+
+/* ============================================
+   Touch ergonomics
+   Keyed to pointer type, not width: a tablet in landscape is 1024px
+   wide and still driven by a finger.
+   ============================================ */
+@media (pointer: coarse) {
+    /* 44px is the WCAG 2.5.8 / iOS HIG minimum for a touch target. */
+    .nav-toggle {
+        width: 44px;
+        height: 44px;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-brand,
+    .filter-chip,
+    .project-link,
+    .footer-links a {
+        min-height: 44px;
+    }
+
+    /* These are already inline-flex + centered; the footer links are not. */
+    .footer-links a {
+        display: inline-flex;
+        align-items: center;
+        padding: 0 var(--spacing-xs);
+    }
+
+    .filter-chip,
+    .project-link { justify-content: center; }
 }
