@@ -5,8 +5,8 @@
     {
       "type": "email",
       "label": "Email",
-      "value": "Subhammangi27@gmail.com",
-      "href": "mailto:Subhammangi27@gmail.com",
+      "value": "subhammangi10@gmail.com",
+      "href": "mailto:subhammangi10@gmail.com",
       "icon": "fas fa-envelope",
       "color": "#FF6B6B"
     },
@@ -83,7 +83,7 @@
     },
     {
       "platform": "Email",
-      "url": "mailto:Subhammangi27@gmail.com",
+      "url": "mailto:subhammangi10@gmail.com",
       "icon": "fas fa-envelope"
     }
   ]
