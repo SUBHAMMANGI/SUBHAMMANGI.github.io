@@ -135,7 +135,7 @@
       "description": "Production risk-intelligence platform scoring 100 monitored assets and $124B+ exposure across drawdown, volatility, concentration, and liquidity — automating threshold alerting in Python and surfacing breaches in real time through Tableau dashboards instead of period-end review.",
       "longDescription": "Production risk-intelligence platform scoring 100 monitored assets and $124B+ exposure across drawdown, volatility, concentration, and liquidity — automating threshold alerting in Python and surfacing breaches in real time through Tableau dashboards instead of period-end review.",
       "category": "BI & Dashboards",
-      "technologies": ["Python", "SQL", "Tableau", "Claude API"],
+      "technologies": ["Python", "SQL", "Tableau", "LLM APIs"],
       "icon": "fas fa-chart-column",
       "color": "#FFA500",
       "image": "",

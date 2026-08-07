@@ -6,16 +6,16 @@
       "company": "Crow Museum of Asian Art",
       "period": "May 2025 to May 2026",
       "location": "",
-      "description": "Consolidated 5 source systems into a single reporting layer using SQL and Python, replacing the separate manual exports each team maintained and giving Finance and Operations one consistent set of numbers to work from.\nBuilt ETL workflows with automated validation across those systems, catching 200+ data discrepancies at the source rather than after they surfaced in stakeholder reports and required correction downstream.\nAutomated recurring reporting in Python and Claude API, converting a multi-hour weekly assembly process into a scheduled pipeline and recovering 35% of analyst time for ad hoc requests from leadership.",
+      "description": "Consolidated 5 source systems into a single reporting layer using SQL and Python, replacing the separate manual exports each team maintained and giving Finance and Operations one consistent set of numbers to work from.\nBuilt ETL workflows with automated validation across those systems, catching 200+ data discrepancies at the source rather than after they surfaced in stakeholder reports and required correction downstream.\nAutomated recurring reporting in Python and LLM APIs, converting a multi-hour weekly assembly process into a scheduled pipeline and recovering 35% of analyst time for ad hoc requests from leadership.",
       "responsibilities": [
         "Consolidated 5 source systems into a single reporting layer using SQL and Python, replacing the separate manual exports each team maintained and giving Finance and Operations one consistent set of numbers to work from",
         "Built ETL workflows with automated validation across those systems, catching 200+ data discrepancies at the source rather than after they surfaced in stakeholder reports and required correction downstream",
-        "Automated recurring reporting in Python and Claude API, converting a multi-hour weekly assembly process into a scheduled pipeline and recovering 35% of analyst time for ad hoc requests from leadership"
+        "Automated recurring reporting in Python and LLM APIs, converting a multi-hour weekly assembly process into a scheduled pipeline and recovering 35% of analyst time for ad hoc requests from leadership"
       ],
       "technologies": [
         "SQL",
         "Python",
-        "Claude API",
+        "LLM APIs",
         "ETL"
       ],
       "icon": "fas fa-briefcase",

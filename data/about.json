@@ -3,7 +3,7 @@
   "image": "",
   "paragraphs": [
     "I got my start at Digiflutters in India, building the SQL and Python pipelines behind reporting for four different client accounts, and shipping the Power BI and Tableau dashboards their teams actually lived in day to day. That's what pulled me to UT Dallas for my MS, and it's still what I do now: at Crow Museum, I rebuilt five disconnected reporting systems into one clean layer, catching 200+ discrepancies before they ever reached a stakeholder's inbox.",
-    "On my own time, I built DRIP, a platform scoring risk across $124B+ in DeFi exposure, and I've been using the Claude API to automate reporting work that used to eat a full day a week.",
+    "On my own time, I built DRIP, a platform scoring risk across $124B+ in DeFi exposure, and I've been using LLM APIs to automate reporting work that used to eat a full day a week.",
     "Based in Dallas — and when I'm not fixing a pipeline, I'm probably on a pickleball court."
   ],
   "statistics": [
